@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .iframe-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        iframe::-webkit-scrollbar {
+            display: none;
+        }
+
+        iframe {
+            border: none;
+            width: 100%;
+            min-height: 160vh;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="iframe-container">
+        <iframe style="height: 1350px;" src="heading.html"></iframe>
+        <iframe src="Services.html"></iframe>
+        <iframe src="Navigating.html"></iframe>
+        <iframe style="height: 3300px;" src="Driving.html"></iframe>
+        <iframe src="PharmaPartners.html"></iframe>
+        <iframe src="FAQs.html"></iframe>
+        <iframe src="Connect.html"></iframe>
+        <iframe src="Footer.html"></iframe>
+    </div>
+
+</body>
+
+</html>

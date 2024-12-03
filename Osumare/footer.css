@@ -1,0 +1,30 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #006FED1F;
+    margin-inline: 10vw;
+    padding-inline:5vw;
+    padding-block: 5vh;
+    border-radius: 25px;
+}
+.address-contact{
+    width: 365px;
+}
+.footer-social{
+    max-width: 280px;
+}
+.footer-social img{
+    height: 40px;
+    width: 40px;
+}
+.footer-social div{
+    display: flex;
+    gap: 30px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}

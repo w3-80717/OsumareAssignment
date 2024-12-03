@@ -1,0 +1,60 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.driving{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10vw;
+}
+.outer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.driving-heading-p{
+    font-size: larger;
+    color:#333333;
+}
+.driving-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10vw 10vw;
+
+}
+
+.driving-grid .service-grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peace-of-mind{
+    background: radial-gradient(circle, rgba(173, 216, 230, 1) 0%, rgba(173, 216, 230, 1) 40%, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 0) 100%), 
+    radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 40%, rgba(255, 106, 106, 1) 60%, rgba(255, 106, 106, 0) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.but button{
+    color: #f0f3f7;
+    border-color: #0078FF;
+    background-color: #0078FF;
+    border-radius: 32px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 233px;
+    height: 61px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}

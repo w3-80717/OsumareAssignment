@@ -1,0 +1,86 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 108px;
+    margin-inline: 40px;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 172px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-icon img {
+    height: auto;
+    width: 100%;
+    align-self: center;
+}
+
+.nav a {
+    text-decoration: none;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    font-weight: 800;
+    background-color: white;
+    border-radius: 32px;
+    width: 216px;
+    height: 44px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.nav a:visited{
+    color: unset;
+}
+.nav a:hover{
+    color: #0078FF;
+    border-color: #0078FF;       
+}
+.headding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}     
+.headding .Success{
+    color: #0078FF;
+
+}
+
+.headding button, .main button{
+    color: #f0f3f7;
+    border-color: #0078FF;
+    background-color: #0078FF;
+    border-radius: 32px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 408px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-grid{
+    display: grid;
+    padding-inline: 100px;
+    grid-template-columns: 1fr 1fr;
+}

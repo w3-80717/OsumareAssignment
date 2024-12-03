@@ -1,0 +1,97 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.headline h1 {
+    margin-block: 10px;
+}
+
+.pharma-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vw;
+}
+
+.pharma-grid {
+    background-color: white;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.pharma-main .pharma-grid {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.pharma-grid .pharma-img {
+    width: 600px;
+    height: 464px;
+}
+
+.pharma-grid .pharma-img img {
+    height: 100%;
+    width: auto;
+}
+
+.pharma-main .pharma-icon {
+    height: 80px;
+    width: 80px;
+}
+
+.pharma-main .pharma-icon img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.right-msg {
+    display: flex;
+
+}
+
+.inverted-comma {
+    margin-left: auto;
+}
+
+.carousel-button {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.carousel-button button {
+    border: 0.5px solid #0078FF;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    background-position: center;
+
+}
+
+.carousel-button button.left-arrow {
+    background-image: url("./scroll\ buttion\ \(1\).png");
+}
+
+
+.carousel-button button.right-arrow {
+    background-image: url("./scroll\ buttion.png");
+}
